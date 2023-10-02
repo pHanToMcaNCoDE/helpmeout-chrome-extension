@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Extensions",
+    "description": "This extension helps you record and share help videos with ease.",
+    "version": "1.0",
+    "icons": {
+        "128": "/images/icons.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/icons.png",
+            "32": "/images/icons.png",
+            "128": "/images/icons.png"
+        }
+    },
+    "host_permissions": [
+        "https://*/*"
+    ],
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ]
+}
