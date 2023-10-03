@@ -460,3 +460,136 @@ footer .grid-footer{
     color: var(--w);
 }
 
+/* Responsive Design */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .hero{
+        padding-top: 8em;
+    }
+    .hero .max-width {
+        flex-direction: column;
+    }
+    .hero .heroLeft {
+        width: 100%;
+    }
+    .hero .heroRight {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    .heroLeft h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: var(--sora), sans-serif;
+        color: var(--blackTwo);
+        line-height: 64px;
+    }
+
+    .heroLeft p {
+        width: 18rem;
+        height: 3.5rem;
+        font-size: 1.25rem;
+        font-family: var(--inter), sans-serif;
+        font-weight: 400;
+        color: var(--black);
+        line-height: 28px;
+    }
+    .max-width .img-gridTwo {
+        position: absolute;
+        top: 25%;
+        right: 3%;
+        z-index: -1;
+    }
+
+    /* Features Section Styling */
+    .features {
+        padding-top: 5%;
+    }
+
+    .features .head {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features .head h1 {
+        font-size: 3rem;
+        line-height: 50.4px;
+        font-weight: 700;
+        font-family: var(--sora), sans-serif;
+        color: var(--blue);
+    }
+
+    .features .head p {
+        font-size: 1rem;
+        width: 50rem;
+        font-family: var(--wSans);
+        font-weight: 400;
+        line-height: 30.26px;
+    }
+
+    .features .max-width {
+        flex-direction: column;
+    }
+    .max-width .featLeft {
+        width: 100%;
+    }
+    .max-width .featLeft {
+        width: 100%;
+    }
+    .featLeft li {
+        flex-direction: column;
+    }
+
+    .featLeft .holder {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .holder p {
+        width: 90%;
+        font-size: 1.125rem;
+        font-weight: 400;
+        font-family: var(--wSans), sans-serif;
+        color: var(--gray);
+    }
+
+
+    /* How It Works Section Styling */
+
+    .works {
+        padding-top: 8%;
+        padding-bottom: 14%;
+        height: 100vh;
+    }
+
+    .works .head {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 4%;
+    }
+
+    .works .head h1 {
+        font-size: 3rem;
+    }
+
+
+    .works .max-width {
+        flex-direction: column;
+    }
+
+    .max-width .card{
+        width: 90%;
+        margin-top: 1.5em;
+    }
+}
+
+
+
+
+
+
